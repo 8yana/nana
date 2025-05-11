@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ສະບາຍດີ</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap5/icon/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="C:\Bootstrap ພາກບ່າຍ\bootstrap\bootstrap5\css\bootstrap.min.css">
+    <script src="C:\Bootstrap ພາກບ່າຍ\bootstrap\bootstrap5\js\bootstrap.bundle.js"></script>
+
+    <style>
+        *{
+        font-family:'Phetsarath OT';
+        }
+        </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success mb-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">ຮ້ານເສື້ອຜ້າ isabella </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=
+              "#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label=
+              "Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+
+              <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> <i class="bi bi-house-fill"></i> ໜ້າຫຼັກ</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                  <a class="nav-link" href="ໂປໂມຊັ່ນ.html">ໂປຣໂມຊັນ</a>
+                  
+                  </li>
+                  
+                
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                       ສິນຄ້າປະເພດອື່ນໆ <i class="bi bi-cart4"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="Lesson1ປະເພດເສື້ອ.html">ສິນຄ້າປະເພດເສື້ອຜ້າ</a></li>
+                      <li><a class="dropdown-item" href="Lesson2ປະເພດປະດັບ.html">ສິນຄ້າປະເພດເຄື່ອງປະດັບ</a></li>
+                      <li><a class="dropdown-item" href="Lesson3.ປະເພດເກີບ.html">ສິນຄ້າປະເພດເກີບ</a></li>
+                     
+                      
+                    </ul>
+                  </li>
+                </ul>
+                
+             
+                </ul>
+                </span>
+              </div>
+            </div>
+          </nav>
+          <!--ແບ່ງ 2 ຖັນ-->
+ <div class="row">
+  <div class="col-lg-7 "> <!--ແບ່ງຸຖັນທີ1-->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- ພາກສ່ວນຂອງ ປຸ່ມ -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  <!--  ພາກສ່ວນຂອງຮູບ -->
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active"  data-bs-interval="2000"><!-- ພາກສ່ວນ ປັບຄວາມໄວຂອງຮູບທີເລື່ອນ-->
+	<!--ໃສຮູບພາບ img src="Pho/HH.jpg" -->
+      <img src="bootstrap/pic/ຮູບໜ້າຮ້ານ.jpg" class="d-block" width="100%" height="380"><!--ປັບຂະຫນາດຮູບ style="width:100%;max-height:380;"-->
+      <div class="carousel-caption">
+       
+     </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="2000"><!-- ພາກສ່ວນ ປັບຄວາມໄວຂອງຮູບທີເລື່ອນ-->
+      <img src="bootstrap/pic/ຮູບຂ້າງໃນຮ້ານ.jpg" class="d-block" width="100%" height="380"><!--ປັບຂະຫນາດຮູບ style="width:100%;max-height:380;"-->
+      <div class="carousel-caption">
+       
+      </div> 
+    </div>
+    <div class="carousel-item"  data-bs-interval="2000"><!-- ພາກສ່ວນ ປັບຄວາມໄວຂອງຮູບທີເລື່ອນ-->
+      <img src="bootstrap/pic/ເສື້ອຜ້າປົກ.jpg" class="d-block" width="100%" height="380"><!--ປັບຂະຫນາດຮູບ style="width:100%;max-height:380;"-->
+      <div class="carousel-caption">
+      
+      </div>  
+    </div>
+	</div>
+  <!-- ຕົວຄວບຄຸມ ເລື່ອນຊ້າຍ - ຂວາ -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  
+</div>
+
+<div class="mt-3">
+	<div><i class="bi bi-cart4"></i><span data-bs-toggle="modal" data-bs-target="#show">ເສື້ອຜ້າທີ່ນິຍົມຫຼາຍໃນຊ່ວງນີ້</span></b></div><!--ພາກສ່ວນລາຍການສິນຄ້າ ມາແຮງ ປະຈຳຮ້ານ-->
+<div class="modal fade" id="show">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title"><img src="bootstrap/pic/ເສື້ອຜ້າ5.jpg" class="rounded img-fluid"></h4><!--ພາກສ່ວນຮູບພາບທີແຈ້ງເຕືອນວ່າຂາຍດີທີສຸດ-->
+        <h4 class="modal-title"><img src="bootstrap/pic/ເສື້ອຜ້າ7.jpg" class="rounded img-fluid"></h4><!--ພາກສ່ວນຮູບພາບທີແຈ້ງເຕືອນວ່າຂາຍດີທີສຸດ-->
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+ </div>
+
+ <div class="col-lg-5"> <!--ແບ່ງຸຖັນທີ2-->
+	<div class="card">
+		<div class="card-header bg-success text-white"><h2><b><i class="bi bi-bag-heart-fill"></i> ຮ້ານເສື້ອຜ້າ isabella(ຢາ) </b></h2></div><!--ພາກສ່ວນຊື່ຮ້ານ-->
+		<div class="card-body">
+			<h6>ເສື້ອຜ້າທີ່ສັ່ງທໍາເປັນພິເສດ</h6><!--ພາກສ່ວນຂໍມູນ-->
+		</div>
+		<!--ພາກສ່ວນຮູບພາບ-->
+			<div class="card-footer">
+				<div class="row">
+					<div class="col-lg-4 "><img src="bootstrap/pic/ເສື້ອຜ້າ7.jpg"class="rounded img-fluid"></div>
+					<div class="col-lg-4 "><img src="bootstrap/pic/ເສື້ອ3.jpg"class="rounded img-fluid"></div>
+					<div class="col-lg-4 "><img src="bootstrap/pic/ເສື້ອຜ້າ8.jpg"class="rounded img-fluid"></div>
+				</div>                                        
+				<hr>
+			<h5 class="pt-1 pb-1"> <i class="bi bi-person-plus-fill"></i> ລູກຄ້າທ່ານໃດສົນໃຈສາມາດສັ່ງຊື້ໄດ້!</h5>
+			</div>
+		</div>
+		</div>
+   </div><hr><!--ຂີດເສັ້ນ-->
+          
+
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card">
+                <div class="card-body"><img src="bootstrap/pic/ເສື້ອ1.jpg" class="img-thumbnail img-fluid" style="width:100% ; max-height: 270;"></div>
+                <div class="card-footer text-white bg-success"><center>ລາຄາ 1.200,000 ກີບ</center></div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <div class="card-body"><img src="bootstrap/pic/ເສື້ອ2.jpg" class="img-thumbnail img-fluid" style="width:100% ; max-height: 270;"></div>
+                <div class="card-footer text-white bg-success"><center>ລາຄາ 1.300,000 ກີບ</center></div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <div class="card-body"><img src="bootstrap/pic/ເສື້ອ3.jpg" class="img-thumbnail img-fluid" style="width:100% ; max-height: 270;"></div>
+                <div class="card-footer text-white bg-success"><center>ລາຄາ 1.300,000 ກີບ</center></div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <div class="card-body"><img src="bootstrap/pic/ເສື້ອຜ້າ7.jpg" class="img-thumbnail img-fluid" style="width:100% ; max-height: 270;"></div>
+                <div class="card-footer text-white bg-success"><center>ລາຄາ 2.900,000 ກີບ</center></div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-secondary terk text-white p-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div><h3><b><i class="bi bi-bus-fill"></i>ສິນຄ້າເພິ່ມເຕີມພາຍໃນຮ້ານ</b></h3></div>
+                <div class="row">
+                    <div class="col-lg-4"><img src="bootstrap/pic/ເຄື່ອງປະດັບ4.jpg" class="img-thumbnail img-fluid"></div>
+                    <div class="col-lg-4"><img src="bootstrap/pic/ເຄື່ອງປະດັບ18.jpg" class="img-thumbnail img-fluid"></div>
+                    <div class="col-lg-4"><img src="bootstrap/pic/ເກີບ10.jpg" class="img-thumbnail img-fluid"></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3><b><i class="bi bi-megaphone"></i>ລູກຄ້າທ່ານໃດສົນໃຈສາມາດສັ່ງຊື້ໄດ້ທາງຊ່ອງທາງນີ້ເລີຍ!!</b></h3>
+                <h4><i class="bi bi-telephone-inbound">ຕິດຕໍ່ທາງຮ້ານເຮົາຕາມຊ່ອງທາງດ້ານລ່າງນີ້ເລີຍ</i></h4>
+                <a class="text-white" aria-label="Chat on WhatsApp" href="https:/wa.me/+8562098298749"><h4><i class="bi bi-whatsapp">WhatsApp</i></h4></a>
+                <a class="text-white" href="https://www.facebook.com/profile.php?id=100037533801469&mibextid=ZbWKwL"><h4><i class="bi bi-facebook"></i>facebook</h4></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
